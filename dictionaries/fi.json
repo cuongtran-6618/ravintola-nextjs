@@ -1,0 +1,9 @@
+{
+    "site": {
+        "welcomeText": "Terevetuloa kaikinen Ravintola"
+    },
+    "counter": {
+        "increment": "plussa",
+        "decrement": "minuss"
+      }
+}

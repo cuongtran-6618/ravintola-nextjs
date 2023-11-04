@@ -1,0 +1,9 @@
+{
+    "site": {
+        "welcomeText": "Welcome to Ravintola"
+    },
+    "counter": {
+        "increment": "plus",
+        "decrement": "minus"
+    }
+}
