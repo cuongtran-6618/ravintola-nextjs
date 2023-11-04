@@ -1,4 +1,6 @@
-import { i18n } from '../../../i18n-config'
+import { i18n } from '../../../i18n-config';
+import type { Metadata } from 'next';
+import '../globals.css';
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }))
@@ -21,4 +23,4 @@ export default function Root({
 export const metadata = {
   title: 'i18n within app directory - Vercel Examples',
   description: 'How to do i18n in Next.js 13 within app directory',
-}
+};
